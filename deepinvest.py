@@ -25,7 +25,7 @@ if re.fullmatch(url_format, urlArgument):
 elif sys.argv[1] == '-h' or sys.argv[1] == '--help':
     print(colored("""
           Use example: python deepinvest.py http://example.com
-          If you pentest in a legal way a website is better to use : 
+          If you're performing a legal penetration test, it’s better to use:
                                 "proxychains python deepinvest.py http://example.com"
             help:
                 -o : output file
@@ -35,7 +35,7 @@ else:
         print(colored(f"""
           Uknown argument "{sys.argv[1]}" 
           Use example: python deepinvest.py http://example.com
-          If you pentest in a legal way a website is better to use : 
+          If you're performing a legal penetration test, it’s better to use:
                                 "proxychains python deepinvest.py http://example.com"
             help:
                 -o : output file
