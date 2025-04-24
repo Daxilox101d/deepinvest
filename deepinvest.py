@@ -131,4 +131,4 @@ try:
     check_for_most_known_hidden_directories()
 
 except Exception as e:
-    print(colored(f"{e}"), "red")
+    print(colored(e, "red"))
