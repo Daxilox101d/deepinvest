@@ -109,7 +109,7 @@ def get_comments():
     if not comments:
         print(colored("There is no comment!!", "blue"))
 
-print(colored("This part is for Header informations: ", "yellow","on_red"))
+print(colored("This part is for header informations retrieved from the website's response ", "yellow","on_red"))
 infos_from_response_header()
 
 print(colored("This part is for HTTP methods ", "yellow","on_red"))
