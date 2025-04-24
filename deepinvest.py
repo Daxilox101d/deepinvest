@@ -28,7 +28,6 @@ elif sys.argv[1] == '-h' or sys.argv[1] == '--help':
           If you're performing a legal penetration test, it’s better to use:
                                 "proxychains python deepinvest.py http://example.com"
             help:
-                -o : output file
                 -h : for help""", "red"))
     sys.exit()
 else:
@@ -38,7 +37,6 @@ else:
           If you're performing a legal penetration test, it’s better to use:
                                 "proxychains python deepinvest.py http://example.com"
             help:
-                -o : output file
                 -h : for help""", "red"))
         sys.exit()
 sourcecode = getrequest.text
