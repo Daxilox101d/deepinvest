@@ -116,16 +116,16 @@ print(colored("This part is for HTTP methods ", "yellow","on_red"))
 http_methods_supported_by_The_website()
 
 try:
-    print(colored("This part is for urls: ", "yellow","on_red"))
+    print(colored("This part is for the URLs found in the website source code ", "yellow","on_red"))
     test_urls()
 
-    print(colored("This part is for comments founded in the website: ", "yellow","on_red"))
+    print(colored("This part is for comments founded in the website source code ", "yellow","on_red"))
     get_comments()
 
-    print(colored("This part is for interesting keywords ", "yellow","on_red"))
+    print(colored("This part is for interesting words found in URLs ", "yellow","on_red"))
     check_files_for_some_info_disclosure()
 
-    print(colored("This part is for hidden directories in the website ", "yellow","on_red"))
+    print(colored("This part deals with hidden directories within the website ", "yellow","on_red"))
     check_for_most_known_hidden_directories()
 
 except Exception as e:
