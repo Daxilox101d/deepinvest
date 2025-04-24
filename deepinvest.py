@@ -131,4 +131,4 @@ try:
     check_for_most_known_hidden_directories()
 
 except Exception as e:
-    print(colored("\nEncountred Error, Or you clicked ctrl+c!!"), "red")
+    print(colored(f"{e}"), "red")
